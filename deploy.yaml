@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mychatbotcontainer
-        image: ChatBotLLMDockerImage
+        image: chatbotllmdockerimage
         resources:
           limits:
             memory: "128Mi"
