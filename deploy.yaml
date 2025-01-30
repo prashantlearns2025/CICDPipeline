@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mychatbotcontainer
-        image: prashantlearns2025/chatbot-project:v2
+        image: ChatBotLLMDockerImage
         resources:
           limits:
             memory: "128Mi"
