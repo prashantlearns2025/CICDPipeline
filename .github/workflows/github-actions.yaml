@@ -10,7 +10,7 @@ env:
   GKE_CLUSTER: 	prashant-first-cluster-1  # Add your cluster name here.
   GKE_ZONE: us-central1-c  # Add your cluster zone here.
   DEPLOYMENT_NAME: chatgpt-deploy # Add your deployment name here.
-  IMAGE: ChatBotLLMDockerImage # This Docker Image will be created & then published to Google Container Registry
+  IMAGE: ChatBotLLMDockerImage # This Docker Image will be created & then published to Google Container Registry.
 
 jobs:
   setup-build-publish-deploy:
