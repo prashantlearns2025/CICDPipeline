@@ -14,11 +14,7 @@ spec:
     spec:
       containers:
       - name: mychatbotcontainer
-        image: chatbotllmdockerimage
-        resources:
-          limits:
-            memory: "128Mi"
-            cpu: "500m"
+        image: gcr.io/PROJECT_ID/IMAGE:TAG # chatbotllmdockerimage  
         ports:
         - containerPort: 80
         env:
